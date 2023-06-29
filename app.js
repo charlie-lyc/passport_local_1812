@@ -44,7 +44,10 @@ app.use(session({
 app.use(flash())
 
 /**
- * Passport with session for using 'req.user', 'req.isAuthenticated()', 'req.logout()'
+ * Passport with session for using 
+ * - 'req.user'
+ * - 'req.isAuthenticated()'
+ * - 'req.logout()'
  */
 app.use(passport.session())
 /**
